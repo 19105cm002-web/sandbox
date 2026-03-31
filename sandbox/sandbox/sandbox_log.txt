@@ -1,5 +1,0 @@
-[2026-03-31 21:54:16] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Sandbox session started
-[2026-03-31 21:54:19] | STATUS=ERROR    | RISK=LOW      | HASH=c7b68ac37f36 | CMD="ls" | Command 'ls' returned non-zero exit status 1.
-[2026-03-31 21:54:25] | STATUS=BLOCKED  | RISK=LOW      | HASH=2b64c6d9afd8 | CMD="dir" | Command 'dir' is not in the whitelist
-[2026-03-31 22:00:57] | STATUS=BLOCKED  | RISK=LOW      | HASH=89b15dd34307 | CMD="python main.py" | Command 'python' is not in the whitelist
-[2026-03-31 22:01:10] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Session interrupted by user

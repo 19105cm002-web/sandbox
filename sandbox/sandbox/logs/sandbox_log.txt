@@ -1,0 +1,16 @@
+[2026-03-31 22:01:21] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Sandbox session started
+[2026-03-31 22:01:31] | STATUS=ERROR    | RISK=LOW      | HASH=c7b68ac37f36 | CMD="ls" | Command 'ls' returned non-zero exit status 1.
+[2026-03-31 22:01:37] | STATUS=BLOCKED  | RISK=LOW      | HASH=58466ebdd352 | CMD="rm" | Blocked pattern matched: [\brm\b]
+[2026-03-31 22:07:48] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Session interrupted by user
+[2026-03-31 22:07:51] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Sandbox session started (Rich UI)
+[2026-03-31 22:08:01] | STATUS=ERROR    | RISK=LOW      | HASH=c7b68ac37f36 | CMD="ls" | Command 'ls' returned non-zero exit status 1.
+[2026-03-31 22:08:07] | STATUS=BLOCKED  | RISK=LOW      | HASH=3d637e7514a5 | CMD="woami" | Command 'woami' is not in the whitelist
+[2026-03-31 22:10:07] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Session interrupted by user
+[2026-03-31 22:10:19] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Sandbox session started (Rich UI)
+[2026-03-31 22:10:20] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Session interrupted by user
+[2026-03-31 22:25:15] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Sandbox session started (Rich UI)
+[2026-03-31 22:25:52] | STATUS=ERROR    | RISK=LOW      | HASH=c7b68ac37f36 | CMD="ls" | Command 'ls' returned non-zero exit status 1.
+[2026-03-31 22:25:58] | STATUS=ALLOWED  | RISK=LOW      | HASH=f25297859cf0 | CMD="whoami" | Command executed successfully
+[2026-03-31 22:26:05] | STATUS=ERROR    | RISK=LOW      | HASH=a1159e9df367 | CMD="pwd" | Command 'pwd' returned non-zero exit status 1.
+[2026-03-31 22:26:20] | STATUS=BLOCKED  | RISK=HIGH     | HASH=24e5e1c2bbef | CMD="sudo" | Blocked pattern matched: [\bsudo\b]
+[2026-03-31 22:28:15] | STATUS=INFO     | RISK=LOW      | HASH=d621c1a7169f | CMD="SYSTEM" | Session interrupted by user

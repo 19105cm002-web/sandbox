@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  sandbox:
+    build: .
+    container_name: kali_secure_sandbox
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    read_only: true  # Read-only filesystem
+    cap_drop:
+      - ALL          # Drop all Linux capabilities
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - type: tmpfs
+        target: /tmp
+      # We need /app/logs to be writable for log_event
+      - type: tmpfs
+        target: /app/logs
